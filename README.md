@@ -23,7 +23,7 @@ arbre, racine, node = structure
 ```
 
 ## Algorithme de construction de l'arbre
-```
+```Java
 ajouter (node, racine) =
 	si (node.valeur > racine.valeur) alors
 		si (racine.droite = vide) alors racine.droite = node
@@ -34,7 +34,7 @@ ajouter (node, racine) =
 ```
 
 ## Algorithme de parcours de l'arbre
-```
+```Java
 parcourir (racine) =
 	si (racine != vide) alors
 		parcourir(racine.gauche)
@@ -43,7 +43,7 @@ parcourir (racine) =
 ```
 
 ## Algorithme Global
-```
+```Java
 Variables
 
 Tableau data
