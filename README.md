@@ -5,18 +5,18 @@ Trier avec un arbre
 ## Données manipulées
 ```
 arbre, racine, node = structure 
-		valeur = entier 
-		gauche = branche des nodes avec des valeurs inférieures 
-		droite = branche des nodes avec des valeurs supérieures
+	valeur = entier 
+	gauche = branche des nodes avec des valeurs inférieures 
+	droite = branche des nodes avec des valeurs supérieures
 ```
 
 ## Algorithme de construction de l'arbre
 ```
 ajouter (node, racine) =
-si (node.valeur > racine.valeur) alors
+	si (node.valeur > racine.valeur) alors
 		si (racine.droite = vide) alors racine.droite = node
 		sinon ajouter(node, racine.droite)
-sinon
+	sinon
 		si (racine.gauche = vide) alors racine.gauche = node
 		sinon ajouter(node, racine.gauche)
 ```
