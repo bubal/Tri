@@ -10,7 +10,7 @@ arbre, racine, node = structure
 		droite = branche des nodes avec des valeurs supérieures
 
 
-# Algorithme de construction de l'arbre
+## Algorithme de construction de l'arbre
 
 ajouter (node, racine) =
 si (node.valeur > racine.valeur) alors
@@ -21,7 +21,7 @@ sinon
 		sinon ajouter(node, racine.gauche)
 
 
-# Algorithme de parcours de l'arbre
+## Algorithme de parcours de l'arbre
 
 parcourir (racine) =
 	si (racine != vide) alors
@@ -30,7 +30,7 @@ parcourir (racine) =
 		parcourir(racine.droite)
 
 
-# Algorithme Global
+## Algorithme Global
 
 Variables
 
@@ -51,10 +51,10 @@ arbre.droite = vide
 
 /* construction de l'arbre : */
 pour i allant de 1 à [taille -1] faire
-		node.valeur = data[i]
-		node.gauche = vide
-		node.droite = vide
-		ajouter(node, arbre)
+	node.valeur = data[i]
+	node.gauche = vide
+	node.droite = vide
+	ajouter(node, arbre)
 
 /* parcours de l'arbre : */
 parcourir(arbre)
