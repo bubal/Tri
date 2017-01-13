@@ -2,6 +2,18 @@
 
 Trier avec un arbre 
 
+Exemple :
+```
+[3,15,-2,52,2,-4,41,86]
+
+        3
+       / \
+     -2   15
+     / \    \
+   -4   2    52
+            /  \
+          41    86
+```
 ## Données manipulées
 ```
 arbre, racine, node = structure 
