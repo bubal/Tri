@@ -3,15 +3,16 @@ public class Tri{
      public static void main(String []args){
          
         int tableau[]={15,3,52,81,41,-2};
-
-		Node arbre = new Node();
-		arbre.setValeur(tableau[0]);
+	     
+	Node arbre = new Node();
+	arbre.setValeur(tableau[0]);
 		
-		for(int i = 1; i < tableau.length; i++){
-			Node node = new Node(tableau[i]);
-			ajouter(node,arbre);
-		}
-		parcourir(arbre);
+	for(int i = 1; i < tableau.length; i++){
+		Node node = new Node(tableau[i]);
+		ajouter(node,arbre);
+	}
+	     
+	parcourir(arbre);
      }
     
 	public static void ajouter( Node node, Node racine){
