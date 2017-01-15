@@ -1,3 +1,7 @@
+package com.tri.main;
+
+import com.tri.objects.Node;
+
 public class Tri{
 
      public static void main(String []args){

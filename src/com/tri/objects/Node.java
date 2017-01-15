@@ -1,3 +1,5 @@
+package com.tri.objects;
+
 public class Node {
 	private int valeur;
 	private Node gauche;
