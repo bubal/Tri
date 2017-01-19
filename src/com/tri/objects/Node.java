@@ -4,7 +4,7 @@ public class Node {
 	private int valeur;
 	private Node gauche;
 	private Node droite;
-	
+
 	public Node(){
 		valeur=0;
 		gauche=null;
@@ -15,7 +15,7 @@ public class Node {
 		gauche=null;
 		droite=null;
 	}
-	
+
 	public int getValeur() {
 		return valeur;
 	}
