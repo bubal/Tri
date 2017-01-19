@@ -18,8 +18,8 @@ Exemple :
 ```
 arbre, racine, node = structure 
 	valeur = entier 
-	gauche = branche des nodes avec des valeurs inférieures 
-	droite = branche des nodes avec des valeurs supérieures
+	gauche = branche des nodes avec des valeurs infÃ©rieures 
+	droite = branche des nodes avec des valeurs supÃ©rieures
 ```
 
 ## Algorithme de construction de l'arbre
@@ -52,7 +52,7 @@ Structure arbre, node
 
 DÃ©but
 -------
-/* initialisation des données : */
+/* initialisation des donnÃ©es : */
 data = [15,3,52,81,41]
 taille = dimension de data
 
